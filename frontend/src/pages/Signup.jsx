@@ -34,8 +34,7 @@ function Signup() {
 
     try {
 
-        const response = await axios.post(
-            "http://localhost:5000/api/signup",
+        const response = await axios.post("https://talent-hunt-backend-d4kv.onrender.com/api/signup",
             {
                 name: name,
                 email: email,
